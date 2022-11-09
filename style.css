@@ -1,0 +1,174 @@
+body{
+    width: 1250px;
+    margin: 0 auto;
+    background-image: url(http://orar.usarb.md/img/new_background_1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #333333;
+}
+
+/*Section Main*/
+
+section#main{
+    display: grid;
+    grid-template-columns: 5fr 9fr;
+    gap: 50px;
+}
+
+/*Section 1*/
+
+.div-titlu{
+    background-color: white;
+    height: 50px;
+    text-align: center;
+}
+
+.div-titlu h4{
+    padding: 10px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.div-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.div-buttons button{
+    cursor: pointer;
+    background-color: #25975A;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 25px;
+    border: 0;
+    font-weight: bold;
+}
+
+.div-buttons button:hover{
+    background-color: white;
+    color: #333333;
+}
+
+button#active-button{
+    background-color: white;
+    color: #333333;
+}
+.section1 input{
+    border-radius: 0;
+    width: 428.567px;
+    border: 0;
+    height: 36px;
+    margin-top: 25px;
+}
+
+
+.select-grupa{
+    margin-top: 25px;
+    width: 432.5px;
+    border: 0;
+    font-size: 16px;
+    color: #33333366;
+}
+
+.select-hide{
+    margin-top: 25px;
+    width: 432.5px;
+    border: 0;
+    font-size: 16px;
+    height: 36px;
+}
+
+.div-tabel{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 200px;
+}
+
+.div-tabel div{
+    background-color: white;
+    border: 0.5px solid #33333366;
+    color: white;
+}
+
+div#tabel-dates{
+    border: 0.5px solid white;
+    background-color: #25975A;
+}
+
+div#lection{
+    background-color: #25975a80;
+}
+
+.div-tabel div:hover{
+    border: 2px solid #25975A;
+}
+
+.tabel-info{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.tabel-info span{
+    color: white;
+    font-size: 12px;
+    padding: 0 7px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+/*Section 1*/
+
+.section2{
+    text-align: center;
+}
+
+.section2 img{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+}
+
+.section2 h4{
+    font-size: 24px;
+    color: white;
+}
+
+.lections-tabel{
+
+}
+
+.lt-rows{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    min-height: 50px;
+    background-color: white;
+    color: #333333d0;
+    border: 0.5px solid #33333366;
+}
+
+.lt-rows:hover{
+    background-color: #25975A;
+    color: white;   
+}
+
+.lt-column1{
+    color: white;
+    background-color: #25975A;
+    border: 0.5px solid white;
+    border-right: 0;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.lt-column2 {
+    border-left: 0;
+}
+
+.lt-column2 p{
+    margin: 5px;
+}
